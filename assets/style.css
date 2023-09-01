@@ -1,0 +1,20 @@
+:root{
+    --primary: #808000;
+    --secondary: #BAB86C;
+    --accent: #f5f5dc;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5dc;
+}
+
+body{
+    color: var(--secondary);
+    text-align: center;
+    
+
+
+}
