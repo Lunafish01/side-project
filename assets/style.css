@@ -1,17 +1,78 @@
-:root{
-    --primary: #808000;
-    --secondary: #BAB86C;
-    --accent: #f5f5dc;
+:root {
+    --primary: #191970;
+    --secondary: #005A9C;
+    --accent: #b3cee5;
+    --accent2: #f0f8ff 
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f5f5dc;
+    font-family: sans-serif;
+    background-color: var(--accent2)
 }
 
-body{
+body {
     color: var(--secondary);
     text-align: center;
+}
+
+/* HEADER STYLING AND NAV STYLING */
+
+span {
+    color: var(--accent);
+    background-color: var(--primary);
+}
+
+header {
+    padding: 10px;
+    text-align: left;
+    background-color: var(--primary);
+}
+
+header div {
+    background-color: var(--primary);
+    text-align: center;
+}
+
+header h1 {
+    color: var(--accent2);
+    font-size: 40px;
+    font-weight: bold;
+    background-color: var(--primary);
+    padding: 20px;
+}
+
+header nav {
+    margin: 20px;
+    background-color: var(--primary);
+}
+
+h1 {
+    display: inline-block;
+    border: 5px solid var(--accent);
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px white;
+}
+
+
+ul {
+    list-style-type: none;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: end;
+}
+
+a {
+    background-color: var(--primary);
+    color: var(--accent2);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header nav ul li a:hover {
+    color: var(--secondary);
 }
