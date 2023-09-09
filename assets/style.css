@@ -10,7 +10,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    background-color: var(--accent2)
 }
 
 body {
@@ -76,3 +75,38 @@ a {
 header nav ul li a:hover {
     color: var(--secondary);
 }
+
+/* HERO IMAGE AND BLOCK QUOTE STYLING */
+
+.hero {
+    background-image: url(./images/heroimg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+}
+
+.quote{
+    color: var(--accent2);
+    font-size: 50px;
+    text-shadow: 3px 3px 5px black;
+}
+
+/* H2 HEADINGS AND ABOUT ME STYLING */
+
+.section-header{
+    border-right: 5px solid var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    max-width: 20%;
+}
+
+.about-me{
+    display: flex;
+}
+
